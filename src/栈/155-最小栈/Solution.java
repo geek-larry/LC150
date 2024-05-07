@@ -1,4 +1,5 @@
 import java.util.Deque;
+import java.util.LinkedHashMap;
 import java.util.LinkedList;
 
 class MinStack {
@@ -28,4 +29,18 @@ class MinStack {
     public int getMin() {
         return minStack.peek();
     }
+
+
+    public static void main(String[] args) {
+        LinkedHashMap<Object, Object> map = new LinkedHashMap<>();
+        
+    }
+
+
+
+
+
+
+
+
 }
