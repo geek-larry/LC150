@@ -1,3 +1,4 @@
+// 反转一半数字
 class Solution {
     public boolean isPalindrome(int x) {
         // 特殊情况：
