@@ -2,6 +2,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 class Solution {
+    // 排序 + 贪心
     public int findMinArrowShots(int[][] points) {
         if (points.length == 0) {
             return 0;
