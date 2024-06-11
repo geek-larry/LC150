@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Solution {
+    // 一次遍历
     public List<String> summaryRanges(int[] nums) {
         List<String> ret = new ArrayList<String>();
         int i = 0;

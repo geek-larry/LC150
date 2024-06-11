@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Solution {
+    // 模拟
     public int[][] insert(int[][] intervals, int[] newInterval) {
         int left = newInterval[0];
         int right = newInterval[1];

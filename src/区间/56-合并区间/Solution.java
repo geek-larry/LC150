@@ -4,6 +4,7 @@ import java.util.Comparator;
 import java.util.List;
 
 class Solution {
+    // 排序
     public int[][] merge(int[][] intervals) {
         if (intervals.length == 0) {
             return new int[0][2];
