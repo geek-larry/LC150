@@ -1,4 +1,4 @@
-public class ListNode {
+class ListNode {
     int val;
     ListNode next;
 
@@ -15,6 +15,7 @@ public class ListNode {
     }
 }
 
+// 分治合并
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         return merge(lists, 0, lists.length - 1);

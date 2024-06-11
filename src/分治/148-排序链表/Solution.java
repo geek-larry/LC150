@@ -1,4 +1,4 @@
-public class ListNode {
+class ListNode {
     int val;
     ListNode next;
 
@@ -15,6 +15,7 @@ public class ListNode {
     }
 }
 
+// 自顶向下归并排序
 class Solution {
     public ListNode sortList(ListNode head) {
         if (head == null) {
