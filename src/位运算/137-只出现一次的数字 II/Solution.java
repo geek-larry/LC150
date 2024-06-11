@@ -1,8 +1,7 @@
-// 哈希表
-
 import java.util.HashMap;
 import java.util.Map;
 
+// 哈希表
 class Solution {
     public int singleNumber(int[] nums) {
         Map<Integer, Integer> freq = new HashMap<Integer, Integer>();
