@@ -1,4 +1,4 @@
-public class TreeNode {
+class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
@@ -8,6 +8,7 @@ public class TreeNode {
     }
 }
 
+// 递归
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null || root == p || root == q)

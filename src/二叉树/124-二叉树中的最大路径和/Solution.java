@@ -1,4 +1,4 @@
-public class TreeNode {
+class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
@@ -17,6 +17,7 @@ public class TreeNode {
     }
 }
 
+// 递归
 class Solution {
     int maxSum = Integer.MIN_VALUE;
 

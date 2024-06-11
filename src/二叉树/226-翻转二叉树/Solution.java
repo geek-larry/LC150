@@ -1,4 +1,4 @@
-public class TreeNode {
+class TreeNode {
 	int val;
 	TreeNode left;
 	TreeNode right;
@@ -17,6 +17,7 @@ public class TreeNode {
 	}
 }
 
+// 递归
 class Solution {
 	public TreeNode invertTree(TreeNode root) {
 		// 递归函数的终止条件，节点为空时返回
