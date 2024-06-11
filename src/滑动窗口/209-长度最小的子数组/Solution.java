@@ -1,4 +1,5 @@
 class Solution {
+
     public static int minSubArrayLen(int target, int[] nums) {
         int n = nums.length;
         if (n == 0) {
