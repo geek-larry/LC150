@@ -1,4 +1,5 @@
 class Solution {
+    // 字符统计
     public boolean canConstruct(String ransomNote, String magazine) {
         if (ransomNote.length() > magazine.length()) {
             return false;
