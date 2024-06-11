@@ -1,4 +1,5 @@
 class Solution {
+    // 复制原数组进行模拟
     public void gameOfLife(int[][] board) {
         int[] neighbors = {0, 1, -1};
 

@@ -1,4 +1,5 @@
 class Solution {
+    // 一次遍历
     public boolean isValidSudoku(char[][] board) {
         int[][] rows = new int[9][9];
         int[][] columns = new int[9][9];

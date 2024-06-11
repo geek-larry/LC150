@@ -1,4 +1,5 @@
 class Solution {
+    // 原地旋转
     public void rotate(int[][] matrix) {
         int n = matrix.length;
         for (int i = 0; i < n / 2; ++i) {

@@ -1,4 +1,5 @@
 class Solution {
+    // 使用标记数组
     public void setZeroes(int[][] matrix) {
         int m = matrix.length, n = matrix[0].length;
         boolean[] row = new boolean[m];
