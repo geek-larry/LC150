@@ -61,7 +61,6 @@ class Solution2 {
 
         int length1 = nums1.length, length2 = nums2.length;
         int index1 = 0, index2 = 0;
-        int kthElement = 0;
 
         while (true) {
             // 边界情况
