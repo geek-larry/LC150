@@ -15,6 +15,7 @@ public class ListNode {
     }
 }
 
+// 模拟
 class Solution {
     public ListNode partition(ListNode head, int x) {
         ListNode small = new ListNode(0);

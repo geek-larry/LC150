@@ -15,6 +15,7 @@ public class ListNode {
     }
 }
 
+// 闭合为环
 class Solution {
     public ListNode rotateRight(ListNode head, int k) {
         if (k == 0 || head == null || head.next == null) {

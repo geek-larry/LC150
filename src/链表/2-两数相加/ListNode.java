@@ -17,6 +17,7 @@ public class ListNode {
 }
 
 class Solution {
+    // 递归
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if (l1 == null)
             return l2;

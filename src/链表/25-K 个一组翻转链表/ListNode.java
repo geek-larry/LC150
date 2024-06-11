@@ -15,6 +15,7 @@ public class ListNode {
     }
 }
 
+// 模拟
 class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
         ListNode hair = new ListNode(0);

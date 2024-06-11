@@ -9,6 +9,7 @@ class ListNode {
 }
 
 public class Solution {
+    // 快慢指针
     public boolean hasCycle(ListNode head) {
         if (head == null || head.next == null) {
             return false;

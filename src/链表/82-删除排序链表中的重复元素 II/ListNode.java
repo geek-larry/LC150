@@ -15,6 +15,7 @@ public class ListNode {
     }
 }
 
+// 一次遍历
 class Solution {
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null) {
