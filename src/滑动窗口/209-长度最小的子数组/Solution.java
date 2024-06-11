@@ -1,5 +1,6 @@
 class Solution {
 
+    // 滑动窗口
     public static int minSubArrayLen(int target, int[] nums) {
         int n = nums.length;
         if (n == 0) {

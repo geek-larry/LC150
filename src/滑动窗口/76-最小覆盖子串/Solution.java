@@ -6,6 +6,7 @@ class Solution {
     Map<Character, Integer> ori = new HashMap<Character, Integer>();
     Map<Character, Integer> cnt = new HashMap<Character, Integer>();
 
+    // 滑动窗口
     public String minWindow(String s, String t) {
         int tLen = t.length();
         for (int i = 0; i < tLen; i++) {

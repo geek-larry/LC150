@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Map;
 
 class Solution {
+    // 滑动窗口
     public List<Integer> findSubstring(String s, String[] words) {
         List<Integer> res = new ArrayList<Integer>();
         int m = words.length, n = words[0].length(), ls = s.length();
