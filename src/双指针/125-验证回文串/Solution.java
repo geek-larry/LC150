@@ -1,4 +1,5 @@
 class Solution {
+    // 筛选 + 判断
     public static boolean isPalindrome(String s) {
         StringBuffer sgood = new StringBuffer();
         int length = s.length();
@@ -12,6 +13,7 @@ class Solution {
         return sgood.toString().equals(sgood_rev.toString());
     }
 
+    // 双指针
     public static boolean isPalindrome02(String s) {
         StringBuffer sgood = new StringBuffer();
         int length = s.length();

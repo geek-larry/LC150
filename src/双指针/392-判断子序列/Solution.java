@@ -1,4 +1,5 @@
 public class Solution {
+    // 双指针
     public boolean isSubsequence(String s, String t) {
         int length1 = s.length();
         int length2 = t.length();

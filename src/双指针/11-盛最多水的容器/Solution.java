@@ -1,4 +1,5 @@
 public class Solution {
+    // 双指针
     public static int maxArea(int[] height) {
         int l = 0, r = height.length - 1;
         int ans = 0;

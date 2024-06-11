@@ -1,5 +1,6 @@
 public class Solution {
 
+    // 双指针
     public int[] twoSum(int[] numbers, int target) {
         int low = 0, high = numbers.length - 1;
         while (low < high) {
@@ -15,6 +16,7 @@ public class Solution {
         return new int[] { -1, -1 };
     }
 
+    // 二分查找
     public int[] twoSum02(int[] numbers, int target) {
         for (int i = 0; i < numbers.length; ++i) {
             int low = i + 1, high = numbers.length - 1;
