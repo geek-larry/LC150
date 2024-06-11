@@ -1,4 +1,5 @@
 class Solution {
+    // 一次二分查找
     public boolean searchMatrix(int[][] matrix, int target) {
         int m = matrix.length, n = matrix[0].length;
         int left = 0, right = m * n - 1;

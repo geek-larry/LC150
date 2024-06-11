@@ -1,4 +1,5 @@
 class Solution {
+    // 二分查找
     public int findPeakElement(int[] nums) {
         int left = 0, right = nums.length - 1;
         while (left < right) {

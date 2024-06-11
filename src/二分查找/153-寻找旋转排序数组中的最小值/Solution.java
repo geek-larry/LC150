@@ -1,4 +1,5 @@
 class Solution {
+    // 二分查找
     public int findMin(int[] nums) {
 
         int low = 0;
