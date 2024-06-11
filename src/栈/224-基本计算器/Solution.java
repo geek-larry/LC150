@@ -2,6 +2,7 @@ import java.util.Deque;
 import java.util.LinkedList;
 
 class Solution {
+    // 括号展开 + 栈
     public int calculate(String s) {
         Deque<Integer> ops = new LinkedList<Integer>();
         ops.push(1);
