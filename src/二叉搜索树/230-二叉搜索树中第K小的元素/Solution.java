@@ -22,6 +22,7 @@ class Solution {
         }
     }
 
+    // 中序遍历
     public int kthSmallest(TreeNode root, int k) {
         Deque<TreeNode> stack = new ArrayDeque<TreeNode>();
         while (root != null || !stack.isEmpty()) {

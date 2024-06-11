@@ -22,6 +22,7 @@ class Solution {
     int pre;
     int ans;
 
+    // 中序遍历
     public int getMinimumDifference(TreeNode root) {
         ans = Integer.MAX_VALUE;
         pre = -1;

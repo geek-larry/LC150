@@ -22,6 +22,7 @@ class Solution {
         }
     }
 
+    // 中序遍历
     public boolean isValidBST(TreeNode root) {
         Deque<TreeNode> stack = new LinkedList<TreeNode>();
         double inorder = -Double.MAX_VALUE;
