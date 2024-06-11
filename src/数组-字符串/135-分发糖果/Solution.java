@@ -1,4 +1,5 @@
 class Solution {
+    // 常数空间遍历
     public int candy(int[] ratings) {
         int n = ratings.length;
         int ret = 1;

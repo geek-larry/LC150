@@ -1,4 +1,5 @@
 class Solution {
+    // 反向遍历
     public static int lengthOfLastWord(String s) {
         int index = s.length() - 1;
         while (s.charAt(index) == ' ') {

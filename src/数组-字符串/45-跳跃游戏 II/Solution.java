@@ -1,4 +1,5 @@
 public class Solution {
+    // 反向查找出发位置
     public static int jump(int[] nums) {
         int position = nums.length - 1;
         int steps = 0;
@@ -16,7 +17,7 @@ public class Solution {
         return steps;
     }
 
-    // 正向查找
+    // 正向查找可到达的最大位置
     public int jump2(int[] nums) {
         int length = nums.length;
         int end = 0;

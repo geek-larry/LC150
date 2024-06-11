@@ -2,6 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 class Solution {
+    // 模拟
     static Map<Character, Integer> symbolValues = new HashMap<Character, Integer>() {
         {
             put('I', 1);

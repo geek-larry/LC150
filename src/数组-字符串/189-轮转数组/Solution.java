@@ -1,4 +1,5 @@
 class Solution {
+    // 数组翻转
     public static void rotate(int[] nums, int k) {
         k %= nums.length;
         reverse(nums, 0, nums.length - 1);
@@ -14,6 +15,16 @@ class Solution {
             start += 1;
             end -= 1;
         }
+    }
+
+    // 使用额外的数组
+    public void rotate2(int[] nums, int k) {
+        int n = nums.length;
+        int[] newArr = new int[n];
+        for (int i = 0; i < n; ++i) {
+            newArr[(i + k) % n] = nums[i];
+        }
+        System.arraycopy(newArr, 0, nums, 0, n);
     }
 
     public static void main(String[] args) {

@@ -1,4 +1,5 @@
 public class Solution {
+    // 双指针
     public static int removeDuplicates(int[] nums) {
         int n = nums.length;
         if (n == 0) {

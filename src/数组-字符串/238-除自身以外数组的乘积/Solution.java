@@ -1,4 +1,5 @@
 public class Solution {
+    // 左右乘积列表
     public static int[] productExceptSelf(int[] nums) {
         int length = nums.length;
 

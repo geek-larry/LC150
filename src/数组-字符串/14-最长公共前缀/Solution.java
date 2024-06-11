@@ -1,4 +1,5 @@
 public class Solution {
+    // 纵向扫描
     public static String longestCommonPrefix(String[] strs) {
         if (strs == null || strs.length == 0) {
             return "";

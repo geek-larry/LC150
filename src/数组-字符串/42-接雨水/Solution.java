@@ -30,7 +30,6 @@ class Solution {
     }
 
     // 单调栈
-
     public int trap2(int[] height) {
         int ans = 0;
         Deque<Integer> stack = new LinkedList<Integer>();

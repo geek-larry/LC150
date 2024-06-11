@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
+// 变长数组 + 哈希表
 class RandomizedSet {
     List<Integer> nums;
     Map<Integer, Integer> indices;

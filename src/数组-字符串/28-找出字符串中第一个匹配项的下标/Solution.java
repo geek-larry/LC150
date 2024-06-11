@@ -1,6 +1,5 @@
 class Solution {
-
-    // KMP
+    // Knuth-Morris-Pratt 算法
     public int strStr(String haystack, String needle) {
         int n = haystack.length(), m = needle.length();
         if (m == 0) {

@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
 class Solution {
+    // 排序
     public static int hIndex(int[] citations) {
         Arrays.sort(citations);
         int h = 0, i = citations.length - 1;

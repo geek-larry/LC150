@@ -1,4 +1,5 @@
 public class Solution {
+    // 贪心
     public static boolean canJump(int[] nums) {
         int n = nums.length;
         int rightmost = 0;

@@ -3,6 +3,7 @@ import java.util.Collections;
 import java.util.List;
 
 class Solution {
+    // 使用语言特性
     public String reverseWords(String s) {
         // 除去开头和末尾的空白字符
         s = s.trim();

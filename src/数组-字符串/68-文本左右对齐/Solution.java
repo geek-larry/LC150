@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Solution {
+    // 模拟
     public List<String> fullJustify(String[] words, int maxWidth) {
         List<String> ans = new ArrayList<String>();
         int right = 0, n = words.length;
