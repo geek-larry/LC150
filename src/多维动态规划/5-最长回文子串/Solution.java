@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Solution {
 
     public String longestPalindrome(String s) {
@@ -46,5 +49,85 @@ public class Solution {
             }
         }
         return s.substring(begin, begin + maxLen);
+    }
+}
+
+// 中心扩展算法
+class Solution2 {
+    public String longestPalindrome(String s) {
+        if (s == null || s.length() < 1) {
+            return "";
+        }
+        int start = 0, end = 0;
+        for (int i = 0; i < s.length(); i++) {
+            int len1 = expandAroundCenter(s, i, i);
+            int len2 = expandAroundCenter(s, i, i + 1);
+            int len = Math.max(len1, len2);
+            if (len > end - start) {
+                start = i - (len - 1) / 2;
+                end = i + len / 2;
+            }
+        }
+        return s.substring(start, end + 1);
+    }
+
+    public int expandAroundCenter(String s, int left, int right) {
+        while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
+            --left;
+            ++right;
+        }
+        return right - left - 1;
+    }
+}
+
+// Manacher 算法
+class Solution3 {
+    public String longestPalindrome(String s) {
+        int start = 0, end = -1;
+        StringBuffer t = new StringBuffer("#");
+        for (int i = 0; i < s.length(); ++i) {
+            t.append(s.charAt(i));
+            t.append('#');
+        }
+        t.append('#');
+        s = t.toString();
+
+        List<Integer> arm_len = new ArrayList<Integer>();
+        int right = -1, j = -1;
+        for (int i = 0; i < s.length(); ++i) {
+            int cur_arm_len;
+            if (right >= i) {
+                int i_sym = j * 2 - i;
+                int min_arm_len = Math.min(arm_len.get(i_sym), right - i);
+                cur_arm_len = expand(s, i - min_arm_len, i + min_arm_len);
+            } else {
+                cur_arm_len = expand(s, i, i);
+            }
+            arm_len.add(cur_arm_len);
+            if (i + cur_arm_len > right) {
+                j = i;
+                right = i + cur_arm_len;
+            }
+            if (cur_arm_len * 2 + 1 > end - start) {
+                start = i - cur_arm_len;
+                end = i + cur_arm_len;
+            }
+        }
+
+        StringBuffer ans = new StringBuffer();
+        for (int i = start; i <= end; ++i) {
+            if (s.charAt(i) != '#') {
+                ans.append(s.charAt(i));
+            }
+        }
+        return ans.toString();
+    }
+
+    public int expand(String s, int left, int right) {
+        while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
+            --left;
+            ++right;
+        }
+        return (right - left - 2) / 2;
     }
 }
