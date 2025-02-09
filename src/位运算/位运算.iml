@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/136-只出现一次的数字" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/137-只出现一次的数字 II" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/190-颠倒二进制位" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/191-位1的个数" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/201-数字范围按位与" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/67-二进制求和" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

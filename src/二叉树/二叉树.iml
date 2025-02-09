@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/100-相同的树" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/101-对称二叉树" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/104-二叉树的最大深度" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/105-从前序与中序遍历序列构造二叉树" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/106-从中序与后序遍历序列构造二叉树" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/112-路径总和" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/114-二叉树展开为链表" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/117-填充每个节点的下一个右侧节点指针 II" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/124-二叉树中的最大路径和" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/173-二叉搜索树迭代器" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/222-完全二叉树的节点个数" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/226-翻转二叉树" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/236-二叉树的最近公共祖先" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

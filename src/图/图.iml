@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/130-被围绕的区域" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/133-克隆图" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/200-岛屿数量" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/207-课程表" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/210-课程表 II" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/399-除法求值" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

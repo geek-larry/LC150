@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/289-生命游戏" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/36-有效的数独" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/48-旋转图像" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/54-螺旋矩阵" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/73-矩阵置零" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

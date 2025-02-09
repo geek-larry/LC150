@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/149-直线上最多的点数" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/172-阶乘后的零" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/50-Pow(x, n)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/66-加一" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/69-x的平方根" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/9-回文数" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

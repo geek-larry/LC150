@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/src/Kadane算法/Kadane算法.iml" filepath="$PROJECT_DIR$/src/Kadane算法/Kadane算法.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/LC150.iml" filepath="$PROJECT_DIR$/.idea/LC150.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/一维动态规划/一维动态规划.iml" filepath="$PROJECT_DIR$/src/一维动态规划/一维动态规划.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/二分查找/二分查找.iml" filepath="$PROJECT_DIR$/src/二分查找/二分查找.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/二叉搜索树/二叉搜索树.iml" filepath="$PROJECT_DIR$/src/二叉搜索树/二叉搜索树.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/二叉树/二叉树.iml" filepath="$PROJECT_DIR$/src/二叉树/二叉树.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/二叉树层次遍历/二叉树层次遍历.iml" filepath="$PROJECT_DIR$/src/二叉树层次遍历/二叉树层次遍历.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/位运算/位运算.iml" filepath="$PROJECT_DIR$/src/位运算/位运算.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/分治/分治.iml" filepath="$PROJECT_DIR$/src/分治/分治.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/区间/区间.iml" filepath="$PROJECT_DIR$/src/区间/区间.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/双指针/双指针.iml" filepath="$PROJECT_DIR$/src/双指针/双指针.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/哈希表/哈希表.iml" filepath="$PROJECT_DIR$/src/哈希表/哈希表.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/回溯/回溯.iml" filepath="$PROJECT_DIR$/src/回溯/回溯.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/图/图.iml" filepath="$PROJECT_DIR$/src/图/图.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/图的广度优先搜索/图的广度优先搜索.iml" filepath="$PROJECT_DIR$/src/图的广度优先搜索/图的广度优先搜索.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/堆/堆.iml" filepath="$PROJECT_DIR$/src/堆/堆.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/多维动态规划/多维动态规划.iml" filepath="$PROJECT_DIR$/src/多维动态规划/多维动态规划.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/字典树/字典树.iml" filepath="$PROJECT_DIR$/src/字典树/字典树.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/数学/数学.iml" filepath="$PROJECT_DIR$/src/数学/数学.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/数组-字符串/数组-字符串.iml" filepath="$PROJECT_DIR$/src/数组-字符串/数组-字符串.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/栈/栈.iml" filepath="$PROJECT_DIR$/src/栈/栈.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/滑动窗口/滑动窗口.iml" filepath="$PROJECT_DIR$/src/滑动窗口/滑动窗口.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/矩阵/矩阵.iml" filepath="$PROJECT_DIR$/src/矩阵/矩阵.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/链表/链表.iml" filepath="$PROJECT_DIR$/src/链表/链表.iml" />
+    </modules>
+  </component>
+</project>

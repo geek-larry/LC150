@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/228-汇总区间" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/452-用最少数量的箭引爆气球" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/56-合并区间" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/57-插入区间" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
